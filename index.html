@@ -1,15 +1,92 @@
-<!DOCTYPE htlm>
-    <html>
-        <head>
-            <meta charset = "UTF-8">
-            <title>My New Webpage</title>
-        </head>
-        <body>
-        <h1>Hicran's Portfolio</h1>    
-        <p style="color:rgba(255, 20, 145, 0.835)"> Welcome to my webdevelopment project!<br>
-        <a target="_blank" href= "https://www.linkedin.com/in/hicranarnold/">Connect me on LinkedIn</a>
-        </p>
-        <img src="./bioPic7.JPG" / height="500" alt="Hicran's picture">
-            
-        </body>
-</html>    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Link-->
+    <!-- CSS only -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- Link to style sheet----->
+   <link rel="stylesheet", href="style.css">
+   <!-- Link to FONT AWESOME----->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <title>Home</title>
+</head>
+<body>
+ <!-- NavBar start--------------------------------------------->
+    <nav class="nav-bar">
+        <div class="mylogo">   
+          <a href="#"><img  class="primary-icon" src="logo_transparent.png" alt="Hicran's Logo"></a>        
+        </div>
+        <ul class="nav-list">
+          <li class="list-item">
+            <a class="active" href="#">Home</a>
+          </li>
+          <li class="list-item">
+            <a href="#">Projects</a>
+          </li>
+        </ul>
+      </nav>
+<!-- NavBar End---------------------------------------------------->
+<!-- Picture and BIO BOOTSTRAP------------------------------------->
+<div class="row row-cols-1 row-cols-md-3 g-4">  
+    <div class="col a-flex justify-content-center"></div>
+      <div class="card">
+        <img src="hicranspic.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hicran Arnold<br>
+            Data Professional and Software Engineer<br></h5>
+          <p class="card-text">
+            Welcome to my portfolio website!<br>  
+            I love working with data, math, and programming. Last a few years I invest my time to learn new technology and tools. I have been studying MS in Applied Data Analytics. I am taking certificate classes in front end and back-end software development.  Previously, I have worked on financial reporting as a financial analyst. 
+            In my free time when I am not studying or working, I like to take my dog for a long walk, or go for a run. I love reading books and learning new topics
+            </p>
+          <a href="#" class="btn btn-primary stretched-link">See My Projects</a>
+        </div>
+      </div>
+    </div>   
+  </div>
+<!-- Vidoe BIO BOOTSTRAP------------------------------------->
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">  
+    <div class="col a-flex justify-content-center"></div>
+      <div class="card">
+        <iframe width="600"height="400"  src="https://www.youtube.com/embed/Mc7XKiNrHQc">
+        </iframe>
+        <div class="card-body">
+          <h5 class="card-title">Introduction</h5>
+          <p class="card-text">Learn</p>
+          <a href="#" class="btn btn-primary stretched-link">See My Projects</a>
+        </div>
+      </div>
+    </div>   
+  </div>
+<!-- VIDOE BIO BOOTSTRAP END------------------------------------->   
+
+<!-- FOOTER------------------------------------------------------>   
+<div class="footer">
+    <p>
+      Find Me here!
+    </p>
+  <br>
+
+  <div> 
+  <a href="https://www.linkedin.com/in/hicranarnold/"><i class="fa fa-linkedin" aria-hidden="true"style="font-size:24px;color:black"></i>LinkedIn</a>
+  <a href="https://github.com/hicranA"><i class="fa fa-github" aria-hidden="true" style="font-size:24px;color:black"></i>Github</a> 
+  <a href="https://www.linkedin.com/in/hicranarnold/"><i class="fa fa-envelope" aria-hidden="true"style="font-size:24px;color:black"></i>Email</a>
+   </div>
+<!-- FOOTER END ----------------------------------------------------> 
+
+</body>
+<!-- Bootstrap Use-->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+</html>
