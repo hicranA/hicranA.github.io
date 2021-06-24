@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+ /* style body */
+ body{
+    background-color:#FBE7C6 ;
+    font-family: 'Viaoda Libre', cursive;
+    
+  }
+/* style body end*/
+/* style navigation bar*/
+ .nav-bar{
+   background-color: whitesmoke;
+   color:black;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 20px;
+   position: relative;
+ }
+ .primary-icon{
+   height: 50px;
+   left: auto; 
+ }
+ .nav-list{
+   list-style-type: none;
+ }
+ .nav-list .list-item{
+   display: inline-block;
+   padding: 20px 20px ;
+   margin-right: 10px;
+ }
+ .nav-bar a{
+   color:black;
+   text-decoration: none;
+ }
+ .nav-bar a.active {
+   background-color: #B4F8C8;
+   color: black;
+     }
+ .nav-bar a:hover{
+   color :aqua;
+   background-color: blueviolet;
+ }
+/*** style navigation bar end***/
+
+/*** style float  cards******/
+.float-container {
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  margin-top: 100px;
+  margin-left: 100px;
+  font-family: 'Viaoda Libre', cursive;
+ 
+}
+
+.float-child {
+  width: 50%;
+  margin-left:300px;
+  float:center;
+  padding: 20px;
+  border: 2px solid #FFAEBC;
+  margin-block-end: 50px;
+  font-size:large;
+  
+
+}  
+.float-child.green {
+  margin-right: 20px;
+  
+}
+
+.photo{
+  margin-left: 0px;
+  width: 800px;
+}
+
+.float-container li{
+  list-style-type: none;
+
+}
+.float-container a{
+  list-style-type: none;
+  color:black;
+  text-decoration: none;
+}
+
+.float-container a:hover{
+  color :aqua;
+  background-color: blueviolet;
+}
+.float-container img{
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+
+/*** style float cards end********/ 
+
+
+/***** style footer******************/
+.footer{
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background:white;
+  overflow: hidden; 
+  }
+  
+  .footer p{
+    background-color:#B4F8C8;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    text-decoration: none;
+    padding: 5px 5px ;
+    margin-right: 10px;
+  }
+  
+  .footer div{
+    margin-top:100px;
+    background-color:white;
+    word-spacing: 20px;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    text-decoration: none;
+  }
+  
+  .footer i {
+    margin-right:5px ;
+  
+  }
+  .footer a{
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 5px ;
+    margin-right: 10px; 
+  }
+  
+  .footer a:hover{
+    color :aqua;
+    background-color: blueviolet;
+  }
+  /****************** style footer ends************/
+
+  /****************** GRID list of projects*******/
+  .grid-item button{
+    font-size: large;
+    background-color: #A0E7E5;
+  }
+  button:hover{
+    color :aqua;
+    background-color: blueviolet;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.3s ease 0s;
+
+  }
+
+  .title{
+    margin-top: 200px;
+    text-align: center 
+  }
+
+
+  .grid-container {
+    margin-top: 100PX;
+   margin-left:50PX ;
+   margin-right: 50PX;
+   display: grid;
+   grid-template-columns: auto 600px auto;
+   background-color: #FFAEBC;
+   padding: 10px;
+ }
+ .grid-item {
+   background-color: #B4F8C8;
+   border: 1px solid rgba(0, 0, 0, 0.8);
+   padding: 20px;
+   font-size: 20px;
+   text-align: center;
+   overflow-wrap: anywhere;
+ }
+ .grid-item-title {
+   background-color: #B4F8C8;
+   border: 1px solid rgba(0, 0, 0, 0.8);
+   padding: 10px;
+   font-size: 20px;
+   text-align: center;
+   font-weight: bold;
+  
+ }
+ 
+  /****************** GRID list of projects ends*******/
