@@ -1,4 +1,4 @@
-# Hicran's webdevoplment project
+# Hicran development project
 
 ## Description
 I created this website to explore front end development and create a platform to organize and
