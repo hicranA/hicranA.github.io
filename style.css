@@ -6,7 +6,7 @@
  /* style body */
  body{
     background-color:#FBE7C6 ;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Viaoda Libre', cursive;
     
   }
 /* style body end*/
@@ -46,11 +46,59 @@
  }
 /*** style navigation bar end***/
 
-/*** style bootstrap cards******/
- .card{
-     margin-top: 50px;
- }
-/*** style bootstrap cards end********/ 
+/*** style float  cards******/
+.float-container {
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  margin-top: 100px;
+  margin-left: 100px;
+  font-family: 'Viaoda Libre', cursive;
+ 
+}
+
+.float-child {
+  width: 50%;
+  margin-left:300px;
+  float:center;
+  padding: 20px;
+  border: 2px solid #FFAEBC;
+  margin-block-end: 50px;
+  font-size:large;
+  
+
+}  
+.float-child.green {
+  margin-right: 20px;
+  
+}
+
+.photo{
+  margin-left: 0px;
+  width: 800px;
+}
+
+.float-container li{
+  list-style-type: none;
+
+}
+.float-container a{
+  list-style-type: none;
+  color:black;
+  text-decoration: none;
+}
+
+.float-container a:hover{
+  color :aqua;
+  background-color: blueviolet;
+}
+.float-container img{
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+
+/*** style float cards end********/ 
 
 
 /***** style footer******************/
