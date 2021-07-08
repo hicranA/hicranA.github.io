@@ -6,7 +6,7 @@
  /* style body */
  body{
     background-color:#FBE7C6 ;
-    font-family: 'Viaoda Libre', cursive;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     
   }
 /* style body end*/
@@ -53,7 +53,7 @@
   left: 50%;
   margin-top: 100px;
   margin-left: 100px;
-  font-family: 'Viaoda Libre', cursive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
  
 }
 
@@ -136,7 +136,6 @@
   
   .footer i {
     margin-right:5px ;
-  
   }
   .footer a{
     color:black;

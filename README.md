@@ -6,4 +6,4 @@ Installation:
 Usage: You can use this projec to build a simillar website for yourself 
 Support: please email me on  
 Roadmap: This section could include any future fixes or improvements you might be planning for your project. 
-License information: Free, open source project
+License information: Free, open source project. Please free to copy to codefor own your project but not the pictures (not inculuded on the open source)
