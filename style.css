@@ -10,6 +10,7 @@
     
   }
 /* style body end*/
+
 /* style navigation bar*/
  .nav-bar{
    background-color: whitesmoke;
@@ -27,6 +28,11 @@
  .nav-list{
    list-style-type: none;
  }
+ .list-item {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+}
  .nav-list .list-item{
    display: inline-block;
    padding: 20px 20px ;
@@ -49,23 +55,21 @@
 /*** style float  cards******/
 .float-container {
   padding: 20px;
-  top: 50%;
-  left: 50%;
-  margin-top: 100px;
-  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
  
 }
 
 .float-child {
   width: 50%;
-  margin-left:300px;
-  float:center;
+  margin: 0 auto;
   padding: 20px;
   border: 2px solid #FFAEBC;
-  margin-block-end: 50px;
-  font-size:large;
-  
+  margin-bottom: 50px;
+  font-size: large;
 }  
 .float-child.green {
   margin-right: 20px;

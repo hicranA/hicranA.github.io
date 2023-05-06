@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Symbol and Quote</title>
+	<style>
+		.container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			height: 100vh;
+		}
+		.symbol-container {
+			position: relative;
+			height: 200px;
+			width: 200px;
+		}
+		.symbol {
+			position: absolute;
+			font-size: 60px;
+			animation: spin 10s linear infinite, color-change 5s infinite alternate;
+			transform-origin: center;
+		}
+		.symbol-1 {
+			top: 0;
+			left: 60px;
+		}
+		.symbol-2 {
+			top: 80px;
+			left: 0;
+		}
+		.symbol-3 {
+			top: 80px;
+			right: 0;
+		}
+		.symbol-4 {
+			bottom: 0;
+			left: 60px;
+		}
+		.symbol-5 {
+			bottom: 80px;
+			left: 0;
+		}
+		.symbol-6 {
+			bottom: 80px;
+			right: 0;
+		}
+		.quote {
+			font-size: 30px;
+			margin-top: 20px;
+			text-align: center;
+		}
+		@keyframes spin {
+			from {
+				transform: rotate(0deg);
+			}
+			to {
+				transform: rotate(360deg);
+			}
+		}
+		@keyframes color-change {
+			from {
+				color: red;
+			}
+			to {
+				color: blue;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="symbol-container">
+			<div class="symbol symbol-1">&#931;</div> <!-- Σ -->
+			<div class="symbol symbol-2">&#128187;</div> <!-- computer-->
+			<div class="symbol symbol-3">&#952;</div> <!-- θ -->
+			<div class="symbol symbol-4">&#8706;</div> <!-- ∂ -->
+			<div class="symbol symbol-5">&#128161;</div> <!-- 💡 -->
+			<div class="symbol symbol-6">&#963;</div> <!-- σ -->
+		</div>
+	</div>
+</body>
+</html>
+
+
