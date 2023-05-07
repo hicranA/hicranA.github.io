@@ -66,19 +66,174 @@
 				color: blue;
 			}
 		}
+
+/* style navigation bar*/
+ .nav-bar{
+   background-color: whitesmoke;
+   color:black;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 20px;
+   position: relative;
+ }
+ .primary-icon{
+   height: 50px;
+   left: auto; 
+ }
+ .nav-list{
+   list-style-type: none;
+ }
+ .list-item {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+}
+ .nav-list .list-item{
+   display: inline-block;
+   padding: 20px 20px ;
+   margin-right: 10px;
+ }
+ .nav-bar a{
+   color:black;
+   text-decoration: none;
+ }
+ .nav-bar a.active {
+   background-color: #B4F8C8;
+   color: black;
+     }
+ .nav-bar a:hover{
+   color :aqua;
+   background-color: blueviolet;
+ }
+ .text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  } .text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+/***** style footer******************/
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  background-color: #B4F8C8;
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+  
+  .footer div{
+    margin-top:100px;
+    background-color:white;
+    word-spacing: 20px;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    text-decoration: none;
+  }
+  
+  .footer i {
+    margin-right:5px ;
+  }
+  .footer a{
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 5px ;
+    margin-right: 10px; 
+  }
+  
+  .footer a:hover{
+    color :aqua;
+    background-color: blueviolet;
+  }
+
+  .container p {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+  /****************** style footer ends************/
 	</style>
 </head>
 <body>
+	 <!-- NavBar start--------------------------------------------->
+	 <nav class="nav-bar">
+        <div class="mylogo">   
+          <a href=""><img  class="primary-icon" src="logo_transparent.png" alt="Hicran's Logo"></a>        
+        </div>
+        <ul class="nav-list">
+          <li class="list-item">
+            <a class="active" href="https://hicrana.github.io/">Home</a>
+          </li>
+          <li class="list-item">
+            <a href="https://hicrana.github.io/project">Projects</a>
+          </li>
+        </ul>
+      </nav>
+<!-- NavBar End---------------------------------------------------->
 	<div class="container">
 		<div class="symbol-container">
 			<div class="symbol symbol-1">&#931;</div> <!-- Σ -->
-			<div class="symbol symbol-2">&#128187;</div> <!-- computer-->
-			<div class="symbol symbol-3">&#952;</div> <!-- θ -->
+			<div class="symbol symbol-3">&#128187;</div> <!-- computer-->
+			<div class="symbol symbol-2">&#952;</div> <!-- θ -->
 			<div class="symbol symbol-4">&#8706;</div> <!-- ∂ -->
 			<div class="symbol symbol-5">&#128161;</div> <!-- 💡 -->
 			<div class="symbol symbol-6">&#963;</div> <!-- σ -->
 		</div>
+		<div class="text-container">
+			<p> Welcome to my portfolio website! <br>  
+
+				I am a data enthusiast with a passion for exploring the power of data. Through this website, I share various projects and insights about data science and machine learning. I have a particular interest in AI and machine learning, as well as data visualization and statistical analysis. If you have any questions or suggestions regarding my work, please feel free to contact me via email.</p>
+		  </div>
 	</div>
+
+
+<!-- FOOTER------------------------------------------------------->   
+<div class="footer">
+    <p>
+      Find Me here!
+    </p>
+  <br>
+
+  <div> 
+  <a href="https://www.linkedin.com/in/hicranarnold/"><i class="fa fa-linkedin" aria-hidden="true"style="font-size:24px;color:black"></i>LinkedIn</a>
+  <a href="https://github.com/hicranA"><i class="fa fa-github" aria-hidden="true" style="font-size:24px;color:black"></i>Github</a> 
+  <a href="https://www.linkedin.com/in/hicranarnold/"><i class="fa fa-envelope" aria-hidden="true"style="font-size:24px;color:black"></i>Email</a>
+   </div>
+<!-- FOOTER END ----------------------------------------------------> 
+
 </body>
 </html>
 

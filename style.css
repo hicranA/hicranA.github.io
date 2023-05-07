@@ -60,8 +60,10 @@
   align-items: center;
   flex-direction: column;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
- 
+  margin: 0 auto;
+  width: 80%;
 }
+
 
 .float-child {
   width: 50%;
@@ -105,26 +107,25 @@
 
 
 /***** style footer******************/
-.footer{
-    margin-top:100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    width: 100%;
-    background:white;
-  overflow: hidden; 
-  }
-  
-  .footer p{
-    background-color:#B4F8C8;
-    align-items: center;
-    justify-content: center;
-    color:black;
-    text-decoration: none;
-    padding: 5px 5px ;
-    margin-right: 10px;
-  }
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  background-color: #B4F8C8;
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
   
   .footer div{
     margin-top:100px;
@@ -203,6 +204,70 @@
  }
  
   /****************** GRID list of projects ends*******/
+	.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .symbol-container {
+    position: relative;
+    height: 200px;
+    width: 200px;
+  }
+  .symbol {
+    position: absolute;
+    font-size: 60px;
+    animation: spin 10s linear infinite, color-change 5s infinite alternate;
+    transform-origin: center;
+  }
+  .symbol-1 {
+    top: 0;
+    left: 60px;
+  }
+  .symbol-2 {
+    top: 80px;
+    left: 0;
+  }
+  .symbol-3 {
+    top: 80px;
+    right: 0;
+  }
+  .symbol-4 {
+    bottom: 0;
+    left: 60px;
+  }
+  .symbol-5 {
+    bottom: 80px;
+    left: 0;
+  }
+  .symbol-6 {
+    bottom: 80px;
+    right: 0;
+  }
+  .quote {
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes color-change {
+    from {
+      color: red;
+    }
+    to {
+      color: blue;
+    }
+  }
+  
 
   /***************** test mobile view*****************/
 
